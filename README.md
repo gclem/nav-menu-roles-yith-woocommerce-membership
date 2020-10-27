@@ -1,7 +1,7 @@
 # Nav Menu Roles + YITH WooCommerce Memberships  
 
 A bridge plugin that adds YITH WooCommerce Membership Plans to Nav Menu Roles menu options. 
-It is adapted from helgatheviking plugin, working only for Woo Commerce Membership plugin.
+It is adapted from [helgatheviking plugin](https://github.com/helgatheviking/nav-menu-roles-woocommerce-memberships), working only for Woo Commerce Membership plugin.
 
 ## Requirements
 1. [Nav Menu Roles](https://wordpress.org/plugins/nav-menu-roles/)
