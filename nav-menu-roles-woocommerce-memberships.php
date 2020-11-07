@@ -136,5 +136,6 @@ function nmr_wcm_current_user_can_wrapper( $role_id = false ) {
     }
 
     $role_id = str_replace( 'wc_membership_', '', $role_id );
-    return YITH_WCMBS_Manager()->get_allowed_posts_in_plan( $role_id, true );
+
+    return YITH_WCMBS_Manager()->user_has_active_plans( $user_id, array($role_id) );
 }
